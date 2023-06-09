@@ -1,0 +1,44 @@
+.ourTeam__content span{
+    color: rgba(124,172,225,1);
+    font-weight: 400;
+}
+.ourTeam__content p{
+    font-weight: 400;
+    font-size: 21px;
+    color: rgba(0,0,0,1);
+}
+/**********************************/
+.card{
+    border: none;
+}
+.card__one,
+.card__two,
+.card__three,
+.card__four{
+    border-bottom: 1px solid #ccc !important;
+}
+.card-header {
+    margin-left: -18px;
+    padding: .75rem 0.50rem;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-body {
+    margin-left: -18px;
+    padding: .75rem 1.99rem;
+}
+.btn.focus, .btn:focus {
+    outline: inherit;
+    box-shadow: none;
+}
+.btn-link {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+    text-decoration: none !important;
+}
+.btn-link:hover{
+    color: #000;
+    text-decoration: none !important;
+}

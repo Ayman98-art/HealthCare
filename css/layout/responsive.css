@@ -1,0 +1,204 @@
+/* screen phone */
+@media (max-width: 477px) {
+.navbar__top{
+    display: none;
+    }
+    .navbar-nav__border{
+    margin-left: 0px !important;
+}
+.link__ahref,
+.link__ahref{
+    margin-left: 0px;
+}
+.link__ahref:hover::after,
+.link__ahref:hover::after{
+    left: 0px;
+    width: 8%;
+}
+.active__ahref::after{
+    left: 0px;
+    width: 8%;
+}
+.nav__text h1{
+    font-size: 72px;
+}
+.nav__text h1 {
+    font-size: 55px;
+}
+.nav__text p {
+    font-size: 17px;
+}
+.btn__Read {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+#header{
+    height: 50%;
+}
+.ourTeam__content h2 {
+    font-size: 40px;
+}
+.team__content{
+    padding: 15px 0px;
+}
+.ourTeam__content p {
+    font-size: 17px;
+}
+#video {
+    height: 75vh;
+}
+.video__play p {
+    padding: 5px 0px 0px 0px;
+    font-size: 19px;
+}
+.btn__Read {
+    margin-bottom: 30px;
+}
+.testmoniles__text {
+    font-size: 15px;
+}
+#testmoniles {
+    height: 75vh;
+}
+.Medical__img{
+    padding-top: 30px;
+}
+.ourTeam__content h2 {
+    font-size: 35px;
+}
+.Modern__content{
+    padding: 15px 0px;
+}
+.Modern__content--text p {
+    font-size: 16px;
+}
+.nav__text--about{
+    text-align: center;
+    font-size: 14px !important;
+}
+}
+
+/* screen Ipad */
+@media (min-width: 768px) and (max-width: 800px) {
+    .navbar__top{
+    display: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+    background-image: url(../../assets/bar-toggel.webp.png);
+}
+.link__ahref,
+.link__ahref{
+    margin-left: 0px;
+}
+.link__ahref:hover::after,
+.link__ahref:hover::after{
+    left: 0px;
+    width: 8%;
+}
+.active__ahref::after{
+    left: 0px;
+    width: 8%;
+}
+.btn__Read {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+#header{
+    height: 80%;
+}
+.accordion {
+    padding-left: 42px;
+}
+#video {
+    height: 75vh;
+}
+.video__play p {
+    padding: 50px 10px 0px 10px;
+}
+.btn__Read {
+    margin-bottom: 30px;
+}
+.testmoniles__text {
+    font-size: 24px;
+}
+.text__part--text{
+    padding-bottom: 30px;
+}
+.Medical__img{
+    padding-top: 30px;
+}
+.Modern__content{
+    padding: 15px 0px;
+}
+#testmoniles {
+    height: 50vh;
+}
+}
+
+/* screen Ipad */
+@media (min-width: 820px) and (max-width: 1010px){
+    .navbar__top{
+    display: none;
+    }
+    .navbar-nav__border{
+    margin-left: 0px !important;
+}
+.link__ahref,
+.link__ahref{
+    margin-left: 0px;
+}
+.link__ahref:hover::after,
+.link__ahref:hover::after{
+    left: 0px;
+    width: 8%;
+}
+.active__ahref::after{
+    left: 0px;
+    width: 8%;
+}
+.btn__Read {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+#header{
+    height: 80%;
+}
+.accordion {
+    padding-left: 42px;
+}
+#video {
+    height: 75vh;
+}
+.video__play p {
+    padding: 50px 10px 0px 10px;
+}
+.btn__Read {
+    margin-bottom: 30px;
+}
+.testmoniles__text {
+    font-size: 24px;
+}
+.text__part--text{
+    padding-bottom: 30px;
+}
+.Medical__img{
+    padding-top: 30px;
+}
+.Modern__content{
+    padding: 15px 0px;
+}
+#testmoniles {
+    height: 70vh;
+}
+}
+
+/*special screen*/
+@media (min-width: 100px) and (max-width: 100000px) {
+    .navbar-light .navbar-toggler-icon {
+    background-image: url(../../assets/bars.webp);
+    }
+.navbar-light .navbar-toggler {
+    color: #000;
+    border-color: #000;
+    }
+}

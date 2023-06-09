@@ -1,0 +1,28 @@
+#video{
+    background-image: url(../../assets/h1-img-2.webp);
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.video__play p{
+    padding: 50px 120px 0px 120px;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+.video__play a{
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+}
+.video__play a i{
+    padding-top: 30px !important;
+    color: rgba(255,255,255,1);
+    transition: all .4s;
+}
+.video__play a span:hover i{
+    color: rgba(255, 21, 0, 0.829);
+}

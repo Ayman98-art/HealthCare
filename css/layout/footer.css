@@ -1,0 +1,120 @@
+.healthCare img{
+    width: 75%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.healthCare__ahref{
+    color: rgba(146,146,146,1);
+    position: relative;
+}
+.healthCare__ahref:hover{
+    color: rgba(146,146,146,1);
+}
+.healthCare__ahref::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0px;
+    transition: all .4s;
+}
+.healthCare__ahref:hover::after{
+    width: 45%;
+}
+.openingHours{
+    margin-top: 32px;
+}
+.openingHours h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(30,30,30,1);
+    margin-bottom: 15px;
+}
+.openingHours span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(146,146,146,1);
+}
+.Services h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(30,30,30,1);
+    margin-bottom: 30px;
+}
+.Services ul li{
+    margin-bottom: 12px;
+}
+.Services__href{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(146,146,146,1);
+    position: relative;
+}
+.Services__href:hover{
+    color: rgba(146,146,146,1);
+}
+.Services__href::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0px;
+    transition: all .4s;
+}
+.Services__href:hover::before{
+    width: 100%;
+}
+.form-control--height {
+    border-radius: 0;
+    height: 50px;
+    cursor: pointer;
+}
+.form__h4ad{
+    margin-bottom: 30px;
+}
+.footer{
+    position: relative;
+    background-color: rgba(248,248,248,1);
+}
+.footer__row{
+    padding-bottom: 100px;
+}
+.copyRight{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(146,146,146,1);
+    position: absolute;
+    bottom: 0;
+}
+.copyRight p{
+    margin-bottom: 30px !important;
+}
+.btn__top{
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    z-index: 990;
+    padding: 8px 12px;
+    border: 0;
+    background-color: #5792cb;
+    color:#fff;
+    font-size: 20px;
+    transition: all .4s;
+}
+.btn__top:hover{
+    background-color: #5793cbce;
+    color: #fff;
+}
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+    transition: opacity .4s;
+}

@@ -1,0 +1,15 @@
+.icon__part--one i{
+    font-size: 45px;
+    color: rgba(124,172,225,1);
+    background-color: rgba(248,248,248,1);
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    line-height: 120px;
+    padding-left: 5px;
+    text-align: center;
+    transition: all .4s;
+}
+.icons__part--text:hover i{
+    background-color: #c4c4c448;
+}

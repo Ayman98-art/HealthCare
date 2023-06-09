@@ -1,0 +1,18 @@
+.Modern__content--img{
+    overflow: hidden;
+}
+.Modern__content--img img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.02);
+    transition: transform .4s cubic-bezier(.25,.46,.45,.94);
+}
+.Modern__content--img:hover img{
+    transform: scale(1);
+}
+.Modern__content--text p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(146,146,146,1);
+}

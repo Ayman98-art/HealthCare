@@ -1,0 +1,20 @@
+.contact__img img{
+    width: 100%;
+    height: auto;
+}
+.form-control {
+    border-radius: 0;
+    height: 50px;
+    cursor: pointer;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.btn__Read--message{
+    color: rgba(255,255,255,1) !important;
+    background-color: rgba(124,172,225,1) !important;
+}
+.btn__Read--message:hover{
+    color: rgba(255,255,255,1) !important;
+    background-color: rgba(124, 173, 225, 0.808) !important;
+}

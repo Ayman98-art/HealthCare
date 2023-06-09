@@ -1,0 +1,49 @@
+/*folder base*/
+/* base file */
+@import url(../css/base/base.css);
+
+/*folder component*/
+/*section  file*/
+@import url(../css/component/our-team.css);
+
+/*section  file*/
+@import url(../css/component/questions.css);
+
+/*section  file*/
+@import url(../css/component/video.css);
+
+/*section  file*/
+@import url(../css/component/contact.css);
+
+/*section  file*/
+@import url(../css/component/icons.css);
+
+/*section  file*/
+@import url(../css/component/testmoniles.css);
+
+/*section  file*/
+@import url(../css/component/text.css);
+
+/*section  file*/
+@import url(../css/component/Modern-diagnostics.css);
+
+/*section  file*/
+@import url(../css/component/Medical.css);
+
+/*section  file*/
+@import url(../css/component/loading.css);
+
+
+/*folder font*/
+/* font file */
+@import url(../css/font/font.css);
+
+/*folder layout*/
+/*header file*/
+@import url(../css/layout/header.css);
+
+/*footer file*/
+@import url(../css/layout/footer.css);
+
+/*responsive file*/
+@import url(../css/layout/responsive.css);

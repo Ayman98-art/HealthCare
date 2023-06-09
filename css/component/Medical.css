@@ -1,0 +1,32 @@
+.Medical__img img{
+    width: 100%;
+    height: auto;
+}
+.fristP--font{
+    font-size: 16px !important;
+    margin-bottom: -5px !important;
+}
+/*Start bar prograss*/
+.prograss{
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.prograss__bar{
+    width: 0%;
+    opacity: 0;
+    height: 100%;
+    background-color: rgb(124, 172, 225)!important;
+    border-radius: 5px;
+    position: relative;
+    transition: all .5s;
+}
+.prograss__bar span{
+    position: absolute;
+    top: -30px;
+    right: -15px;
+    color: #000;
+}
+/*End bar prograss*/
+/***************************************************/
