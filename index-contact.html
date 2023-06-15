@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- flie css -->
 <link rel="stylesheet" href="css/main-style.css">
@@ -27,7 +27,7 @@
 <body>
 
 <!-- Start loading -->
-<div class="loading">
+<!-- <div class="loading">
     <div class="sk-fading-circle">
         <div class="sk-circle1 sk-circle"></div>
         <div class="sk-circle2 sk-circle"></div>
@@ -42,7 +42,7 @@
         <div class="sk-circle11 sk-circle"></div>
         <div class="sk-circle12 sk-circle"></div>
     </div>
-</div>
+</div> -->
 <!-- End loading -->
 
 <!-- Strat header -->
@@ -129,16 +129,23 @@
                     <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
                 </div>
 
-                <form action="#" method="get">
+                <form id="formContact" action="#" method="get">
 
                     <div class="form-group">
                         <label for="inputAddress">Name*</label>
-                        <input type="text" id="signup-name" class="form-control" id="inputAddress" placeholder="ayman gouda">
+                        <input type="text" 
+                        id="signup-name" 
+                        class="form-control" 
+                        id="inputAddress" 
+                        placeholder="ayman gouda">
                     </div>
 
                     <div class="form-group">
                         <label for="inputAddress2">Email*</label>
-                        <input type="email" id="signup-email" class="form-control" id="inputAddress2" placeholder="ayman-gouda@gamil.com">
+                        <input type="email" 
+                        id="signup-email" class="form-control" 
+                        id="inputAddress2"
+                        placeholder="ayman-gouda@gamil.com">
                     </div>
 
                 <div class="textArea">
@@ -146,7 +153,7 @@
                     <textarea name="your problem" class="form-control" id="textArea__text" cols="60" rows="11" placeholder="i want to thank you about ..."></textarea>
                 </div>
 
-                <button class="btn__Read mt-4 btn__Read--message">Send Message</button>
+                <button type="submit" class="btn__Read mt-4 btn__Read--message">Send Message</button>
 
                 </form>
             
@@ -273,24 +280,29 @@
 
             <div class="col-lg-3 col-md-6 col-sm-12">
 
-                <form action="#" method="get">
+                <form id="formContact" action="#" method="get">
                     <h4 class="form__h4ad">Contact us</h4>
                     <div class="form-group">
-                        <!-- <label for="inputAddress">Name*</label> -->
-                        <input type="text" class="form-control form-control--height" id="inputAddress" placeholder="Name">
+                        <input type="text" required
+                        class="form-control form-control--height" 
+                        id="inputAddress" placeholder="Name">
                     </div>
 
                     <div class="form-group">
-                        <!-- <label for="inputAddress2">Email*</label> -->
-                        <input type="email" class="form-control form-control--height" id="inputAddress2" placeholder="Email">
+                        <input type="email" required
+                        class="form-control form-control--height" 
+                        id="inputAddress2" placeholder="Email">
                     </div>
 
                     <div class="textArea">
-                        <!-- <label for="textArea__text">Message*</label> -->
-                        <textarea name="your problem" class="form-control form-control--height" id="textArea__text" cols="30" rows="3" placeholder="Message"></textarea>
+                        <textarea
+                        name="your problem" 
+                        class="form-control form-control--height" 
+                        id="textArea__text" cols="30" rows="3" placeholder="Message"></textarea>
                     </div>
 
-                <button class="btn__Read mt-3 btn__Read--message">Send Message</button>
+                <button class="btn__Read mt-3 btn__Read--message" 
+                        type="submit">Send Message</button>
 
                 </form>
 
@@ -311,7 +323,7 @@
 <!-- Popper and Bootstrap and Jquery (JS) -->
 <script src="js/jquery-3.6.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js" integrity="sha512-7rusk8kGPFynZWu26OKbTeI+QPoYchtxsmPeBqkHIEXJxeun4yJ4ISYe7C6sz9wdxeE1Gk3VxsIWgCZTc+vX3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/owl.carousel.min.js"></script>
 <!-- owl-carousel -->
 <script src="js/owl.carousel.min.js"></script>

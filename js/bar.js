@@ -9,23 +9,11 @@ function showBar(){
         prograsBar.style.width=`${value}%`;
     })
 }
-// function hideBar(){
-//     barPrograss.forEach((hade)=>{
-//         hade.style.opacity=0;
-//         hade.style.width=0;
-//     })
-// }
-
 window.addEventListener("scroll",function(){
     let sectionBar = skillsSection.getBoundingClientRect().top;
     let screenBar = window.innerHeight / 2;
 
 if(screenBar > sectionBar){
-    // console.log("show");
     showBar();
 }
-// else{
-//     // console.log("hide");
-//     hideBar()
-// }
 })
