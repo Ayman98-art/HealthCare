@@ -16,9 +16,10 @@
 }
 .video__play a{
     color: rgba(255,255,255,1);
-    font-size: 20px;
+    font-size: 25px;
 }
 .video__play a i{
+    font-size: 25px;
     padding-top: 30px !important;
     color: rgba(255,255,255,1);
     transition: all .4s;
